@@ -5,7 +5,10 @@
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 
-<br><br><br><br>
+A websocket server written in C for a course followed at InHolland University of
+Applied Science.
+
+<br><br><br>
 
 ## Table of Contents
 * Introduction
