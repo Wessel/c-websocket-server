@@ -1,11 +1,11 @@
-<img src="https://avatars.githubusercontent.com/u/29184334?v=4" align="left" width="192px" height="192px"/>
+<img src="https://avatars.githubusercontent.com/u/29184334?v=4" align="left" width="180px" height="180px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
 > C Websocket Server
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 
-<br><br>
+<br>
 
 ## Table of Contents
 * Introduction
@@ -15,6 +15,15 @@
 ## Introduction
 This websocket server parses JSON data sent by the client
 in order to control the state of GPIO pins by writing them to a SQL database.
+
+## Installation
+1. Clone the repo using git (`git clone https://github.com/Wessel/c-websocket-server`)
+2. Install dependencies using desired package manager (`yay -S libmysqlclient json-c`)
+3. Build and run the project (`make clean run`)
+
+Or using Docker:
+1. Build the container (`docker build -t c-websocket-server .`)
+2. Start the container (`docker run -dp 127.0.0.1:8080:8080 c-websocket-server`
 
 ## Libraries
 
