@@ -1,6 +1,6 @@
 /* main.c */
 /*
-  A simple C websocket server that can accept, parse and send JSON data.
+  A C websocket server that can accept, parse and send JSON data.
 */
 #include <argp.h>
 #include <stdlib.h>

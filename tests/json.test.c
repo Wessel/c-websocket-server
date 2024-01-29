@@ -1,8 +1,8 @@
-/* Libtap for tests */
-#include "../include/libtap.h"
-
+/* test(json-c): Unit tests for data casting */
 #include "../include/json.h"
 #include "../include/macros.h"
+
+#include "../include/libtap.h"
 
 void run_json_tests(int argc, char* argv[], char* env[]) {
   /* Unit test for parsing JSON object*/

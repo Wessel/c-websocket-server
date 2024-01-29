@@ -1,5 +1,0 @@
-@INCLUDE                = doxy.conf
-GENERATE_HTML           = NO
-GENERATE_XML            = YES
-XML_PROGRAMLISTING      = YES
-OUTPUT_DIRECTORY        = ../../doc/doxygen

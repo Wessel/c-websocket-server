@@ -1,6 +1,6 @@
 /* main.c */
 /*
-  Project description
+  Runs all test files inside this directory
 */
 #include <stdio.h>
 #include <stdlib.h>
